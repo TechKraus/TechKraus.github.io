@@ -1,0 +1,93 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+  margin:0;
+  padding:0;
+  border:0;
+  list-style: none;
+}
+table{
+  border-collapse:separate; border-spacing:0;
+}
+caption, th, td{
+  text-align:left; font-weight:400;
+}
+a img{
+  border:none;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+body {
+  color: #291C10;
+  background: #d2e8ff;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: #666;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+#gNavi,#footer{
+  min-width: 1000px;
+}
+
+#over{
+  background: #FFF;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+#bg,#over {
+  z-index: -1;
+  height: 100%;
+  width:100%;
+  position: fixed;
+  min-width: 1000px;
+}
+#over{
+  z-index: 20;
+  background: #d2e8ff;
+}
+
+#top{
+  cursor:pointer;
+  position: fixed;
+  right: -5px;
+  bottom: 0px;
+  z-index: 500;
+}
+#logo{
+  display: table;
+  margin: 0 auto;
+}
+
+/* erika center model
+#erika{
+  position: fixed;
+  left: 550px;
+  z-index: 20px;
+}
+*/
+
+#footer {
+  color: #FFF;
+  padding-bottom: 10px;
+  background: #000 url(../img/top/color_bar.png) repeat-x center 5px;
+}
+
+#footer p{
+  text-align: center;
+  line-height: 18px;
+  padding: 23px 0px 15px;
+  color: #CCC;
+  font-size: 12px;
+}
