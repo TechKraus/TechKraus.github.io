@@ -116,3 +116,22 @@ img.logo{
   width: auto;
   padding: 10px;
 }
+
+/*Contact badge*/
+#contact{
+  font: bold 25px/30px 'Maven Pro', sans-serif;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-spacing: 10px;
+  padding: 10px;
+  background: #fff;
+  top: 50px;
+}
+
+#cnt{
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+}
